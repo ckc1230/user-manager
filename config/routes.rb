@@ -4,5 +4,6 @@ Rails.application.routes.draw do
 	# end
 
 	resources :users
-	
+
+	post "/login" => "users#login"
 end
