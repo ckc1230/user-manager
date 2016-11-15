@@ -2,6 +2,10 @@
 
 ## `GET /users`
 
+**Authentication:**
+
+- Authorization: Token token={your token}
+
 **Response:**
 - Status Code: 200
 
